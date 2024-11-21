@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ListTile(
                 title: const Text(
-                  'Log ',
+                  'Log out',
                   style: TextStyle(color: Colors.black),
                 ),
                 leading: const Icon(
