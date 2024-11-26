@@ -47,13 +47,14 @@ class _MyHomePageState extends State<MyHomePage> {
                               color: Colors.grey, fontSize: 15)),
                       accountName: Text(
                           '${AuthCubit.get(context).userModel.name ?? CacheHelper.getString(key: SharedKey.accountName)}',
-                          style: TextStyle(color: Colors.black, fontSize: 20)),
+                          style: const TextStyle(
+                              color: Colors.black, fontSize: 20)),
                       currentAccountPicture: CircleAvatar(
                         radius: 50,
                         backgroundImage: NetworkImage(
                             '${AuthCubit.get(context).userModel.pic ?? CacheHelper.getString(key: SharedKey.userProfileImage)}'),
                       ),
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.white,
                       ),
                     );
@@ -62,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ListTile(
                 title: const Text(
-                  'Profile',
+                  'My Account',
                   style: TextStyle(color: Colors.black),
                 ),
                 leading: const Icon(Iconsax.personalcard, color: Colors.black),
@@ -179,9 +180,9 @@ class _MyHomePageState extends State<MyHomePage> {
             IconButton(
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MapPage()));
+                    MaterialPageRoute(builder: (context) => const MapPage()));
               },
-              icon: Icon(Iconsax.map_1),
+              icon: const Icon(Iconsax.map_1),
               iconSize: 0.5.dp,
             ),
             SizedBox(
