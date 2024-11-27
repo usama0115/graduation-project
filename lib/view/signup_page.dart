@@ -6,7 +6,7 @@ import 'package:grduation_proj/default/default_text.dart';
 import 'package:grduation_proj/shared/enum.dart';
 import 'package:grduation_proj/shared/cache_helper.dart';
 import 'package:grduation_proj/view/choose_image.dart';
-import 'package:grduation_proj/view/home_page.dart';
+import 'package:grduation_proj/view/home_page/home_page.dart';
 import 'package:grduation_proj/widgets/password_text_field.dart';
 import 'package:grduation_proj/widgets/repeat_password_text_field.dart';
 import 'package:iconsax/iconsax.dart';

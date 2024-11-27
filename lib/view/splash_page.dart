@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:grduation_proj/shared/enum.dart';
 import 'package:grduation_proj/shared/cache_helper.dart';
 import 'package:grduation_proj/view/OnboardingPage/onboarding_page.dart';
-import 'package:grduation_proj/view/home_page.dart';
+import 'package:grduation_proj/view/home_page/home_page.dart';
 import 'package:grduation_proj/view/login_page.dart';
 
 class SplashPage extends StatefulWidget {
