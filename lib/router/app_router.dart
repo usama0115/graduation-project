@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:grduation_proj/router/routes.dart';
 import 'package:grduation_proj/view/OnboardingPage/onboarding_page.dart';
 import 'package:grduation_proj/view/choose_image.dart';
-import 'package:grduation_proj/view/home_page.dart';
+import 'package:grduation_proj/view/home_page/home_page.dart';
 import 'package:grduation_proj/view/login_page.dart';
 import 'package:grduation_proj/view/signup_page.dart';
 import 'package:grduation_proj/view/splash_page.dart';

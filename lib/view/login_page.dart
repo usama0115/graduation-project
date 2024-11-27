@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:grduation_proj/constants.dart';
 import 'package:grduation_proj/shared/enum.dart';
 import 'package:grduation_proj/shared/cache_helper.dart';
-import 'package:grduation_proj/view/home_page.dart';
+import 'package:grduation_proj/view/home_page/home_page.dart';
 import 'package:grduation_proj/view/signup_page.dart';
 import 'package:grduation_proj/view/user_model.dart';
 import 'package:grduation_proj/widgets/password_text_field.dart';
